@@ -41,7 +41,7 @@ for friend in workout_stats:
     if "_Total" in friend:
         if workout_stats[friend] >= 120:
             name = friend.replace("_Total", "")
-            print(f"\nGreat job being the most active, {name}!")
+            print(f"\nGreat job being active, {name}!")
 
 # Step h: User input to look up a friend
 search_name = input("Enter a friend's name: ")
